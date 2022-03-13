@@ -5,7 +5,7 @@ const app = express();
 app.set('view engine', 'pug');
 
 app.get('/', function (req, res) {
-    res.render('index', { title: 'Hey', message: 'Hello there!'});
+    res.render('index', { title: 'Hey', message: 'Hola! Gracias por visitarnos'});
 });
 
 app.listen(process.env.PORT||3000, () => {

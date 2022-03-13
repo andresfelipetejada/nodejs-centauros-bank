@@ -7,6 +7,10 @@
     "start": "node dist/index.js",
     "build": "npx tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andresfelipetejada/nodejs-centauros-bank.git"
+  },
   "author": "Andres Felipe Tejada <andresfelipetejada@hotmail.com>",
   "license": "ISC",
   "dependencies": {
